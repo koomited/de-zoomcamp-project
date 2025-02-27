@@ -38,7 +38,6 @@ consumer = KafkaConsumer(KAFKA_TOPIC,
 
 for message in consumer:
     data = message.value
-    print(data)
 #" Insert data into Postgres
     cursor.execute("""
             INSERT INTO coinbase (time, price, type, sequence, product_id, open_24h, volume_24h, low_24h,
