@@ -1,3 +1,0 @@
-streamlit
-typing_extensions
-psycopg2-binary
