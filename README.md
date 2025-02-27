@@ -11,7 +11,7 @@ Kafka Data Pipeline Project
 ![Awesome](https://img.shields.io/badge/Awesome-ffd700?logo=awesome&logoColor=black)
 ---
 
-This project sets up a data pipeline to ingest cryptocurrency data from an API, processes it through Kafka and store it in a proper format in postgres. Below you'll find instructions on how to configure your environment to run the services.
+This project sets up a data pipeline to ingest cryptocurrency data from an API, processes it through Kafka and store it in a proper format in postgres. Below you'll find instructions on how I configure the environment to run the services in with docker compose.
 
 Configuration
 -------------
@@ -20,7 +20,7 @@ Before running the application, you need to set up environment variables that th
 
 ## System Architecture
 
-![System_architecture.png](final_yelp_overview2.jpg)
+![System_architecture.png](flow_kafka_stream.drawio.svg)
 
 ```bash
 # COINBASE
